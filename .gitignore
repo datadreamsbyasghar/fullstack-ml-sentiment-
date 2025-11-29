@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Node
+node_modules/
+build/
+
+# Data & Models (keep only small demo files)
+*.csv
+*.tsv
+*.xlsx
+*.h5
+*.pkl
+*.pt
+*.model
+
+# OS
+.DS_Store
+Thumbs.db
