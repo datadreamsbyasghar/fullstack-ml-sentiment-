@@ -27,10 +27,15 @@ This project demonstrates end‑to‑end skills in **machine learning, backend d
 
 ## Folder Structure
 Recurrent Neural Network/ 
+
   ├── backend/              # FastAPI backend with auth, prediction, database 
+  
   ├── data/                 # Training/test data 
+  
   ├── model/                # Trained RNN model files 
+  
   ├── sentiment-frontend/   # React + Bootstrap frontend 
+  
   ├── start.sh              # Unified script to launch backend + fronten
 
 ---
@@ -41,15 +46,17 @@ Recurrent Neural Network/
 ```bash
 git clone https://github.com/datadreamsbyasghar/fullstack-ml-sentiment-.git
 cd fullstack-ml-sentiment-
-
+```
 ---
 
 ## Install dependencies
 
 - ### Backend:
+```bash
 cd backend
 pip install -r requirements.txt
 cd ..
+```
 
 ---
 
@@ -58,15 +65,15 @@ cd ..
 cd sentiment-frontend
 npm install
 cd ..
-
+```
 ---
 
 ## Start both servers with one command
 ```bash
 ./start.sh
+```
 ---
 
-## Screenshot
 
 ## Screenshots
 
